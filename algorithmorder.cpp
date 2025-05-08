@@ -7,9 +7,7 @@
 using namespace std;
 using namespace std::chrono;
 
-/* =====================================================
-   DECLARACIONES DE FUNCIONES (prototipos)
-   ===================================================== */
+/* DECLARACIONES DE FUNCIONES*/
 void bubbleSort(vector<int>& arr);
 void insertionSort(vector<int>& arr);
 void merge(vector<int>& arr, int left, int mid, int right);
@@ -17,9 +15,7 @@ void mergeSort(vector<int>& arr, int left, int right);
 int partition(vector<int>& arr, int low, int high);
 void quickSort(vector<int>& arr, int low, int high);
 
-/* =====================================================
-   IMPLEMENTACIÓN DE ALGORITMOS DE ORDENAMIENTO
-   ===================================================== */
+/*IMPLEMENTACIÓN DE ALGORITMOS*/
 
 // Algoritmo Bubble Sort (Ordenamiento de Burbuja)
 void bubbleSort(vector<int>& arr) {
