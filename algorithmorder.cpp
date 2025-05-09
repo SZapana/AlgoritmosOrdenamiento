@@ -161,9 +161,7 @@ void measureTime(void (*sortFunc)(vector<int>&), vector<int> arr, string sortNam
     cout << sortName << ": " << duration.count() << " microsegundos" << endl;
 }
 
-/* =====================================================
-   FUNCIÓN PRINCIPAL
-   ===================================================== */
+/*FUNCIÓN PRINCIPAL*/
 int main() {
     srand(time(0)); // Inicializa la semilla para números aleatorios
 
